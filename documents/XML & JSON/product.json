@@ -1,0 +1,29 @@
+{
+    "products" : {
+        "product" : [{
+            "type" : "Lipstick",
+            "color" : "Pretty-N-Pink",
+            "category" : "makeup"
+        },
+        {
+            "type" : "Eye Shadow",
+            "color" : "Truffle",
+            "category" : "makeup"
+        },
+        {
+            "type" : "Foundation",
+            "color" : "Beige 2.5",
+            "category" : "makeup"
+        },
+        {
+            "type" : "Moisturizer",
+            "color" : [ "Normal/Dry", "Combination/Oily" ],
+            "category" : "skincare"
+        },
+        {
+            "type" : "Eyelash Curler",
+            "color" : "Standard Size",
+            "category" : "tools"
+            }]
+    }
+}
