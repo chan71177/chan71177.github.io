@@ -1,0 +1,261 @@
+/* Color Scheme for my Site:
+Base color: Pink
+Accent color: AntiqueWhite and Gray
+
+*/
+
+body {
+background: url('https://s-media-cache-ak0.pinimg.com/originals/69/5a/4d/695a4d7aee060cd1270d2b961dea288d.jpg') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://alllayedout.com/Backgrounds/Swirls_and_Stars.gif', sizingMethod='scale'); -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://alllayedout.com/Backgrounds/Swirls_and_Stars.gif', sizingMethod='scale'); background-color:#000002; color:#ffffff; }</style><a href="http://alllayedout.com"><img src="http://alllayedout.com/_images/tag.gif" alt="Facebook covers, comments and backgrounds" style="position:absolute; left:0px; top:0px; z-index:5" border="0"></a>
+
+#banner {
+  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-style: ridge;
+  border-width: 5px;
+  border-color: silver;
+  background-color: AntiqueWhite;
+  width: 78%;  
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  color: White;
+  text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+  }
+
+figcaption {
+	background-color: pink;
+	border-radius: 25px;
+	text-align: center;
+	padding: 10px;
+	font-size: 2em;
+	text-align: center;
+	color: grey;
+}
+	
+h2 {
+	font-size: 2em;
+	text-align: center;
+	color: pink;  
+ }
+
+h3 {
+  color: grey;
+  font-size: 1.75em;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: silver;
+  border-style: ridge;
+  border-width: 5px;
+  border-color: silver;
+  background-color: AntiqueWhite;
+ }
+#main {
+	display: grid;
+	margin-top: 2%;
+	grid-template-columns: 32% 32% 32%;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+}
+ 
+
+article {
+	display: grid;
+	font-family: 'Marker Felt', fantasy;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 30% 30% 30% 30%;
+	grid-column-gap: 5px;
+	grid-row-gap: 20px;
+	
+}
+
+.text {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: pink;
+	background-color: gray;
+	border-radius: 25px;
+	text-align: left;
+
+}
+
+.photo img {
+	width: 100%;
+
+}
+
+
+/* Navigation style */
+nav {
+	float: right;
+	top: center;
+	right: 25%;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	float: right;
+	
+}
+
+nav li a {
+	display: block;
+	padding: 11px;
+	text-decoration: underline;
+	border-right: 3px solid silver;
+	border-top: 3px solid silver;
+	border-left: 3px solid silver;
+	border-bottom: 3px solid silver;
+	margin: 2em 0;
+	color: gray;
+	background-color: white;
+	border-radius: 1em;
+} 
+
+footer {
+	margin-top: 2em;
+	text-align: center;
+}
+
+/* Adjust screen size for mobile - using media queries */
+@media only screen and (max-width: 768px) {
+/* For mobile phones: */
+header {
+	clear: right;
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+}
+
+nav {
+	clear: right;
+	margin: 0 auto;
+	}
+
+}
+#crapprinciples {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+	margin: 0 auto;
+	
+}
+
+#crapprinciples td, #crapprinciples th {
+    border: 1px solid White;
+    padding: 8px;
+	
+}
+
+#crapprinciples tr:nth-child(even){background-color: gray;}
+
+#crapprinciples tr:nth-child(odd){background-color: silver;}
+
+
+#crapprinciples th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: Pink;
+    color: Gray;
+	font-size: 1.75em;
+	font-weight: bold;
+}
+
+//FORM------------------------------//
+
+#contactContent { 
+margin-top: 50px; 
+margin-left: 300px;}
+
+input { 
+border: none; 
+margin: 0 auto;
+margin-left: 100px; 
+margin-bottom: 15px; 
+padding-right: 50px;
+
+}
+
+#radio_list li {
+  
+  margin: 0 auto;
+}
+
+#radio_list ul {
+  padding: 0;
+  margin: 0 auto;
+}
+form ul {
+  list-style-type: none;
+  /* Decrease left-padding for the list items */
+  padding-left: 10px;
+  
+}
+/* Style the text area, first by adjusting the left-padding 
+to match the margin of the other elements */
+#question_text {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+}
+
+textarea {
+  /* Match the color and font-family with the rest of the web page */
+  font-family: 'Marker Felt', fantasy;
+  color: Black;
+  width: 85%;
+  height: 150px;
+  padding-left: 10px;
+  
+}
+form {
+  font-size: 1.2em;
+  margin: 0 auto;
+  width: 55%;
+  margin-bottom: 1em;
+  margin-top: 100px;
+  border-style: solid ;
+  border-color: white;
+  border-width; 5px;
+  background-color: pink;
+  padding-top: 10px;
+   }
+#formHead {
+  text-align: center;
+  font-size: 3em;
+  margin-top
+}
+
+/* Remove the border from the <fieldset> element */
+fieldset {
+  border-style: none;
+  }
+legend {
+	text-align: center;
+}
+input[type=text], input[type=email] {
+  width: 50%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1em;
+}
+#submit_btn {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1em;
+  margin-left: 130px; 
+}
+
+button   {
+     color: black; silver
+     background: green;
+     cursor: pointer;
+     width: 50%;
+     font-family: "Trebuchet MS", Helvetica, sans-serif;
+	 font-size: 1em; 	
+}
